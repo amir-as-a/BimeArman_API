@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<CodeAnalysisRuleSet>$(SolutionDir)StyleCop.ruleset</CodeAnalysisRuleSet>
+		<SignAssembly>False</SignAssembly>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="$(SolutionDir)stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="10.3.5" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="10.3.5" />
+		<PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.0" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.376">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="WebServiceDomain\Dtos\Responses\" />
+	</ItemGroup>
+
+</Project>

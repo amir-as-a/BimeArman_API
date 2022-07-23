@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRMJX.WebApi", "FRMJX.WebApi\FRMJX.WebApi.csproj", "{18D39526-9DCD-4238-91D0-A3E5D11372F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRMJX.Core", "FRMJX.Core\FRMJX.Core.csproj", "{1DA8704A-B4F9-48A3-B185-29CCF4BAE73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRMJX.Infrastructure", "FRMJX.Infrastructure\FRMJX.Infrastructure.csproj", "{CEF73146-03F4-4194-A264-5ADC725E1F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{954FC306-B58B-4E79-B134-A03C6B0870E3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		stylecop.json = stylecop.json
+		StyleCop.ruleset = StyleCop.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D39526-9DCD-4238-91D0-A3E5D11372F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D39526-9DCD-4238-91D0-A3E5D11372F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D39526-9DCD-4238-91D0-A3E5D11372F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D39526-9DCD-4238-91D0-A3E5D11372F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA8704A-B4F9-48A3-B185-29CCF4BAE73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA8704A-B4F9-48A3-B185-29CCF4BAE73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA8704A-B4F9-48A3-B185-29CCF4BAE73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA8704A-B4F9-48A3-B185-29CCF4BAE73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF73146-03F4-4194-A264-5ADC725E1F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF73146-03F4-4194-A264-5ADC725E1F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF73146-03F4-4194-A264-5ADC725E1F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF73146-03F4-4194-A264-5ADC725E1F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F0A916C-5C5E-4BF2-B57E-2E3E441FA53D}
+	EndGlobalSection
+EndGlobal
